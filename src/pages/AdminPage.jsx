@@ -16,14 +16,14 @@ const STATUT_NEXT   = { recue: 'en_cours', en_cours: 'terminee' };
 
 // ─── Couleurs marque La Reine du Cossa ───────────────────────────────
 const C = {
-  primary:     '#1A3A2A',
-  primaryMid:  '#2D5E42',
+  primary:     '#6B0020',
+  primaryMid:  '#8B0030',
   primarySoft: 'rgba(107,0,32,0.08)',
-  gold:        '#B8943F',
-  goldLight:   '#D4AF6A',
-  beige:       '#F5EDD8',
-  cream:       '#FBF8F0',
-  dark:        '#1A1A14',
+  gold:        '#D4AF37',
+  goldLight:   '#E8CC6A',
+  beige:       '#FFF0F3',
+  cream:       '#FFFAF9',
+  dark:        '#1A0008',
   darkSoft:    'rgba(0,0,0,0.52)',
   border:      'rgba(212,175,55,0.25)',
   success:     '#1E8449',
@@ -49,7 +49,7 @@ function LoginForm({ onLogin }) {
   return (
     <div style={{
       minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center',
-      background: `linear-gradient(160deg, ${C.primary} 0%, #0D2019 50%, #1A1A14 100%)`,
+      background: `linear-gradient(160deg, ${C.primary} 0%, #4A0018 50%, #1A0008 100%)`,
       padding: 20,
     }}>
       <div style={{ width: '100%', maxWidth: 420 }}>

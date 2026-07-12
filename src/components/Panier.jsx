@@ -3,13 +3,13 @@ import { createCommande } from '../lib/supabase';
 
 // ─── Couleurs La Reine du Cossa ───────────────────────────────────────
 const C = {
-  primary:    '#1A3A2A',
-  primaryMid: '#2D5E42',
-  gold:       '#B8943F',
-  goldLight:  '#D4AF6A',
-  beige:      '#F5EDD8',
-  cream:      '#FBF8F0',
-  dark:       '#1A1A14',
+  primary:    '#6B0020',
+  primaryMid: '#8B0030',
+  gold:       '#D4AF37',
+  goldLight:  '#E8CC6A',
+  beige:      '#FFF0F3',
+  cream:      '#FFFAF9',
+  dark:       '#1A0008',
   darkSoft:   'rgba(0,0,0,0.52)',
   border:     'rgba(212,175,55,0.20)',
   danger:     '#C0392B',
